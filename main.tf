@@ -16,5 +16,5 @@ provider "aws" {
 module "dog-webapp" {
   source  = "app.terraform.io/amarlojo-training/dog-webapp/aws"
   version = "1.0.0"
-  
-}
+  prefix = 
+  }
