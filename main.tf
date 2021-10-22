@@ -18,4 +18,5 @@ module "dog-webapp" {
   version       = "1.0.0"
   prefix        = var.prefix
   instance_type = var.instance_type
+  region = var.region
 }
