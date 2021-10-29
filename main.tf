@@ -19,4 +19,5 @@ module "dog-webapp" {
   prefix        = var.prefix
   instance_type = var.instance_type
   region        = var.region
+  name = "Department"
 }
