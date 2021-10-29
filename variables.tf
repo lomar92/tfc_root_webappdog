@@ -5,8 +5,7 @@ variable "prefix" {
 
 variable "region" {
   description = "This is the cloud hosting region where your webapp will be deployed."
-  default = "eu-west-1"
-}
+  }
 
 variable "instance_type" {
   description = "EC2 Instance Typ definieren"
